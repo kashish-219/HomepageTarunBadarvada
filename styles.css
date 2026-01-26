@@ -71,7 +71,7 @@ body {
 
 .btn-1 {
     display: inline-block;
-    background-color: #0eb9b9;
+    background-color: #005461;
     color: white;
     padding: 15px 30px;
     font-size: 20px;
@@ -84,7 +84,7 @@ body {
 }
 
 .btn-1:hover {
-    background-color: #0ca5a5;
+    background-color: #005461;
     color: white;
     transform: translateY(-2px);
     text-decoration: none;
