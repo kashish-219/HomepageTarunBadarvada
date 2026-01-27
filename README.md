@@ -11,6 +11,9 @@ Tarun Badarvada
 ## Project Objective
 The objective of this project is to design and implement a personal homepage that introduces who I am, highlights my skills and experiences, and showcases my interests. The site serves as a professional yet personal landing page for recruiters, collaborators, classmates, and peers, while demonstrating proficiency in modern HTML, CSS, and JavaScript development practices.
 
+## Design Document
+https://docs.google.com/document/d/1z6BmKtnzifxbJKo5ns6AhUyd0L2Dka3G_11OV-SLdWw/edit?usp=sharing
+
 ## Live Demo
 https://btaruns22.github.io/HomepageTarunBadarvada/
 
