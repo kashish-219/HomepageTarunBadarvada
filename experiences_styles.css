@@ -1,5 +1,5 @@
 main {
-    padding: 60px 0;
+    padding: 60px 100px; /* Add horizontal padding */
     background-color: #e8e8e8;
     min-height: calc(100vh - 70px);
 }
@@ -8,7 +8,15 @@ main {
     font-size: 48px;
     font-weight: normal;
     color: #1a1a1a;
-    margin-bottom: 40px;
+    margin-bottom: 50px; /* Increase spacing below header */
+    max-width: 1400px; /* Contain width */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    max-width: 1400px; /* Contain the cards grid */
+    margin: 0 auto; /* Center the grid */
 }
 
 .experience-card {
@@ -17,8 +25,8 @@ main {
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%; /* Ensure cards have equal height */
 }
-
 .experience-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
