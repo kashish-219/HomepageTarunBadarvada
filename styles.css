@@ -46,14 +46,16 @@ body {
 .main-section {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 80px 100px;
     gap: 50px;
 }
 
-.main-content {
-    flex: 1;
-    max-width: 600px;
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Changed from center to flex-start */
+    gap: 50px;
 }
 
 .main-section h1 {
@@ -91,7 +93,7 @@ body {
 }
 
 .skills-section {
-    margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .skills-section h2 {
@@ -100,10 +102,39 @@ body {
     color: #1a1a1a;
 }
 
-.skills-section .skills {
-    font-size: 20px;
-    color: #1a1a1a;
+.skill-category {
+    margin-bottom: 20px;
 }
+
+.skill-category h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0d7a7a;
+    margin-bottom: 10px;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background-color: #0d7a7a;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+    background-color: #095c5c;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(13, 122, 122, 0.3);
+}
+
 
 .headshot {
     flex: 1;
