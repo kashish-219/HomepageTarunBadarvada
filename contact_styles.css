@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* MAIN SECTION */
+.connect-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 100px;
+}
+
+.connect-left {
+  max-width: 50%;
+}
+
+.connect-left h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* SOCIAL ICONS */
+.socials {
+  display: flex;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.socials a,
+.email-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 22px;
+  padding: 0;
+}
+
+.socials a:hover,
+.email-btn:hover {
+  color: #008080;
+}
+
+/* COPY MESSAGE */
+.copy-msg {
+  margin-top: 15px;
+  font-size: 14px;
+  color: green;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.copy-msg.show {
+  opacity: 1;
+}
+
+/* IMAGE */
+.connect-right img {
+  width: 320px;
+  border-radius: 6px;
+}
+
+.connect-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1100px;   /* controls how wide the content can be */
+  margin: 0 auto;      /* centers the whole section */
+  padding: 80px 40px;  /* smaller horizontal padding */
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffffff;
+  border-top: 1px solid #eee;
+
+  font-size: 13px;
+  color: #666;
+}
