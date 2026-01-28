@@ -1,7 +1,6 @@
 # HomepageTarunBadarvada
 
 My Personal Homepage
-![Homepage Screenshot](headshot.jpg)
 
 ## Author
 Tarun Badarvada
