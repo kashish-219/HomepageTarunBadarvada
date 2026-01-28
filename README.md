@@ -2,6 +2,8 @@
 
 My Personal Homepage
 
+![Homepage Screenshot](HomePage.png)
+
 ## Author
 Tarun Badarvada
 
